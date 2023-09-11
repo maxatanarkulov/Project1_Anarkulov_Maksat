@@ -1,0 +1,16 @@
+@import url("vendor/reset.css");
+@import url("components/header.css");
+@import url("components/base.css");
+@import url("components/home.css");
+@import url("components/parent.css");
+@import url("components/about.css");
+@import url("components/jason.css");
+@import url("components/hz.css");
+@import url("components/lab.css");
+/* @import url("components/block-service.css"); */
+@import url("components/big.css");
+@import url("components/clients.css");
+@import url("components/news.css");
+@import url("components/lastnews.css");
+@import url("components/launch.css");
+@import url("components/footer.css");

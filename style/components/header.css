@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__item{
+    display: flex;
+}
+.header__item a{
+    font-size: 16px;
+    color: #001515;
+    font-weight: 700;
+    margin-left: 30px;
+    transition: .4s;
+    
+}
+.header__item a:hover{
+    color: #227ad2;;
+}
+
+.header__items:last-child{
+    transition: .4s;
+}
+.header__items:hover img{
+    filter: invert(33%) sepia(90%) saturate(997%) hue-rotate(184deg) brightness(98%) contrast(88%);
+    cursor: pointer;
+}
+@media(max-width:1100px){
+    .header__item a{
+        display: none;
+    }
+}

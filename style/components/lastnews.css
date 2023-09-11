@@ -1,0 +1,33 @@
+.news1{
+    background-color: #f2f3f8;
+    transition: .4s;
+}
+.news1:hover{
+    background-color: #227ad2;
+    color: #fff;
+}
+.news1 h2{
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    /* color: #151515; */
+}
+.news1 a{
+    color: inherit;
+    transition: .4s;
+}
+.news1 a:hover{
+    color: #151515;
+}
+.soz{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sozder{
+    display: flex ;
+    margin-bottom: 40px;
+}
